@@ -44,7 +44,6 @@ public class MainActivity extends AppCompatActivity implements MediaPlayer.OnPre
             // 要先play 後，暫停，在跳秒數，再按 play
             int second = Integer.parseInt(seekSec.getText().toString());
             mediaPlayer.seekTo(second * 1000); // 單位是毫秒
-            //mediaPlayer.seekTo(second,1);
         });
 
 
